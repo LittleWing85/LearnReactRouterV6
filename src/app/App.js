@@ -11,7 +11,12 @@ import Profile from "../components/Profile";
 import EditProfileForm from "../components/EditProfileForm";
 import Root from "../components/Root";
 
-import { Route, RouterProvider } from "react-router-dom";
+import {
+    Route,
+    RouterProvider,
+    createBrowserRouter,
+    createRoutesFromElements,
+} from "react-router-dom";
 
 import "./App.css";
 
