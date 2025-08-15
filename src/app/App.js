@@ -15,6 +15,8 @@ import { Route, RouterProvider } from "react-router-dom";
 
 import "./App.css";
 
+// Testin purposes
+
 const router = (
     /* Wrap this Root Route to create Router here */
     <Route path="/" element={<Root />}>
